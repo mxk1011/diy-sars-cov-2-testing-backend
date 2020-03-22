@@ -13,7 +13,7 @@ class CreateRiskgroupTable extends Migration
      */
     public function up()
     {
-        Schema::create('riskgroup', function (Blueprint $table) {
+        Schema::create('riskgroups', function (Blueprint $table) {
             $table->uuid('id');
             $table->string('label');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateRiskgroupTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('riskgroup');
+        Schema::dropIfExists('riskgroups');
     }
 }

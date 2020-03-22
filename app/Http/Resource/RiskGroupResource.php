@@ -1,9 +1,6 @@
 <?php
 
-namespace App\Http\Resource\Producer;
-
-
-use App\Http\Resource\JsonApiResource;
+namespace App\Http\Resource;
 
 class RiskGroupResource extends JsonApiResource
 {

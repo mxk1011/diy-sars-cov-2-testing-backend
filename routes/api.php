@@ -17,9 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:api')->group(function() {
     Route::get('/me', UserController::class . '@me');
+    Route::post('/riskgroups/add', '\App\Http\Controllers\RiskGroupController@add');
 });
 
 Route::post('/user/register', '\App\Http\Controllers\UserController@register');
-Route::post('/auth/login', '\App\Http\Controllers\AuthController@login');
+Route::post('/auth/login', '\App\Http\Controllers\AuthController@login')->name('login');
 
 Route::get('/riskgroups', '\App\Http\Controllers\RiskGroupController@list');

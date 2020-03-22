@@ -13,10 +13,10 @@ class CreateUserHasRiskgroupTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_has_riskgroup', function (Blueprint $table) {
-            $table->uuid('id');
+        Schema::create('risk_group_user', function (Blueprint $table) {
+            $table->id();
             $table->uuid('user_id');
-            $table->uuid('riskgroup_id');
+            $table->uuid('risk_group_id');
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ class CreateUserHasRiskgroupTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user_has_riskgroup');
+        Schema::dropIfExists('risk_group_user');
     }
 }

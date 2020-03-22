@@ -6,10 +6,11 @@ use App\Traits\UuidTrait;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Laravel\Passport\HasApiTokens;
 
 class User extends Authenticatable
 {
-    use Notifiable, UuidTrait;
+    use Notifiable, UuidTrait, HasApiTokens;
 
     /**
      * The attributes that are mass assignable.
@@ -40,11 +41,20 @@ class User extends Authenticatable
 
     const ROLE_PATIENT = 'patient';
     const ROLE_STAFF = 'staff';
+    public $incrementing = false;
 
     public static function getAvailableRoles() {
         return [
             self::ROLE_PATIENT,
             self::ROLE_STAFF,
         ];
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function riskGroups()
+    {
+        return $this->belongsToMany(RiskGroup::class);
     }
 }
