@@ -22,6 +22,13 @@ Route::get('/', function () {
 Route::middleware('auth:api')->group(function() {
     Route::get('/me', UserController::class . '@me');
     Route::post('/riskgroups/add', '\App\Http\Controllers\RiskGroupController@add');
+
+    Route::prefix('tests')->group(function () {
+        Route::get('/', '\App\Http\Controllers\TestController@list');
+        Route::get('/latest', '\App\Http\Controllers\TestController@latest');
+        Route::get('/{id}', '\App\Http\Controllers\TestController@get');
+        Route::post('/', '\App\Http\Controllers\TestController@add');
+    });
 });
 
 Route::post('/user/register', '\App\Http\Controllers\UserController@register');
