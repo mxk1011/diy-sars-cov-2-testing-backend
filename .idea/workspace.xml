@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78e1a6e-a6eb-4f08-afeb-ca54f8beaa33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Request/AddRiskGroupsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000001_create_oauth_auth_codes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000002_create_oauth_access_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000003_create_oauth_refresh_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000004_create_oauth_clients_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000005_create_oauth_personal_access_clients_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2018_13_04_000001_create_auth_twofactor_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RiskGroupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RiskGroupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resource/RiskGroupResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resource/RiskGroupResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/RiskGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/RiskGroup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_22_181554_create_riskgroup_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_22_181554_create_riskgroup_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_22_181650_create_user_has_riskgroup_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_22_181650_create_user_has_riskgroup_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -203,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584896961829</updated>
-      <workItem from="1584896963102" duration="11239000" />
+      <workItem from="1584896963102" duration="11708000" />
     </task>
     <servers />
   </component>

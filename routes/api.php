@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return response()->json(['status' => 200, 'message' => 'Use the API!']);
+});
+
 Route::middleware('auth:api')->group(function() {
     Route::get('/me', UserController::class . '@me');
     Route::post('/riskgroups/add', '\App\Http\Controllers\RiskGroupController@add');
