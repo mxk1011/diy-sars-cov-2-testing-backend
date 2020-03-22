@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78e1a6e-a6eb-4f08-afeb-ca54f8beaa33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Commands/AddTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Request/AddTestRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Resource/TestResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +134,7 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
       <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-cors" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZUc9VvPoB9HWLrEgrZkAcHUgE2" />
@@ -188,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584896961829</updated>
-      <workItem from="1584896963102" duration="13779000" />
+      <workItem from="1584896963102" duration="14589000" />
     </task>
     <servers />
   </component>
